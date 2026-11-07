@@ -1,0 +1,332 @@
+[
+  {
+    "category": "In-Browser LLM & ML Runtimes",
+    "name": "WebLLM (MLC-LLM)",
+    "url": "https://webllm.mlc.ai",
+    "repo_url": "https://github.com/mlc-ai/web-llm",
+    "capability": "High-performance in-browser LLM engine running Llama 3, Gemma, Mistral & Qwen with WebGPU acceleration",
+    "runtime": "WebGPU / WebAssembly",
+    "check_url": "https://webllm.mlc.ai",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 447,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 447ms`"
+    }
+  },
+  {
+    "category": "In-Browser LLM & ML Runtimes",
+    "name": "Transformers.js v3 (Hugging Face)",
+    "url": "https://huggingface.co/docs/transformers.js",
+    "repo_url": "https://github.com/huggingface/transformers.js",
+    "capability": "State-of-the-art WebGPU-accelerated JavaScript library for text, vision, and audio foundation models",
+    "runtime": "WebGPU / ONNX Runtime Web",
+    "check_url": "https://huggingface.co",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 119,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 119ms`"
+    }
+  },
+  {
+    "category": "In-Browser LLM & ML Runtimes",
+    "name": "Wllama",
+    "url": "https://github.com/ngxson/wllama",
+    "repo_url": "https://github.com/ngxson/wllama",
+    "capability": "llama.cpp compiled directly to WebAssembly + WebGPU bindings for ultra-low overhead GGUF model execution",
+    "runtime": "Wasm + WebGPU",
+    "check_url": "https://github.com/ngxson/wllama",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 627,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 627ms`"
+    }
+  },
+  {
+    "category": "In-Browser LLM & ML Runtimes",
+    "name": "ONNX Runtime Web (Microsoft)",
+    "url": "https://onnxruntime.ai",
+    "repo_url": "https://github.com/microsoft/onnxruntime",
+    "capability": "Cross-platform hardware-accelerated inference engine supporting WebGPU kernels for all ONNX models",
+    "runtime": "WebGPU / WebAssembly",
+    "check_url": "https://onnxruntime.ai",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 377,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 377ms`"
+    }
+  },
+  {
+    "category": "In-Browser LLM & ML Runtimes",
+    "name": "Ratchet",
+    "url": "https://github.com/FL33TW00D/ratchet",
+    "repo_url": "https://github.com/FL33TW00D/ratchet",
+    "capability": "High-performance Rust-native deep learning engine targeting WebGPU for instant client-side execution",
+    "runtime": "Rust / WebGPU",
+    "check_url": "https://github.com/FL33TW00D/ratchet",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 1076,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 1076ms`"
+    }
+  },
+  {
+    "category": "In-Browser LLM & ML Runtimes",
+    "name": "Candle (Wasm)",
+    "url": "https://github.com/huggingface/candle",
+    "repo_url": "https://github.com/huggingface/candle",
+    "capability": "Minimalist, highly optimized machine learning framework for Rust supporting browser WASM and WebGPU",
+    "runtime": "Rust / Wasm / WebGPU",
+    "check_url": "https://github.com/huggingface/candle",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 571,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 571ms`"
+    }
+  },
+  {
+    "category": "Speech & Voice WebGPU Models",
+    "name": "Whisper-Web",
+    "url": "https://github.com/xenova/whisper-web",
+    "repo_url": "https://github.com/xenova/whisper-web",
+    "capability": "Real-time speech-to-text recognition running 100% locally in browser with WebGPU hardware acceleration",
+    "runtime": "Transformers.js / WebGPU",
+    "check_url": "https://github.com/xenova/whisper-web",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 606,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 606ms`"
+    }
+  },
+  {
+    "category": "Speech & Voice WebGPU Models",
+    "name": "Kokoro-JS (Kokoro-82M Web)",
+    "url": "https://github.com/hexgrad/kokoro",
+    "repo_url": "https://github.com/hexgrad/kokoro",
+    "capability": "82M parameter state-of-the-art TTS running in the browser generating natural voice audio in real-time",
+    "runtime": "WebGPU / ONNX",
+    "check_url": "https://github.com/hexgrad/kokoro",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 532,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 532ms`"
+    }
+  },
+  {
+    "category": "Speech & Voice WebGPU Models",
+    "name": "Distil-Whisper WebGPU",
+    "url": "https://huggingface.co/distil-whisper",
+    "repo_url": "https://github.com/huggingface/distil-whisper",
+    "capability": "Distilled, lightweight Whisper variants operating at 6x speed in browser with minimal memory overhead",
+    "runtime": "WebGPU",
+    "check_url": "https://huggingface.co",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 348,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 348ms`"
+    }
+  },
+  {
+    "category": "Speech & Voice WebGPU Models",
+    "name": "Silero VAD Web",
+    "url": "https://github.com/snakers4/silero-vad",
+    "repo_url": "https://github.com/snakers4/silero-vad",
+    "capability": "Sub-millisecond Voice Activity Detection (VAD) running client-side to detect speech pauses and turns",
+    "runtime": "ONNX Runtime Web",
+    "check_url": "https://github.com/snakers4/silero-vad",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 548,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 548ms`"
+    }
+  },
+  {
+    "category": "Computer Vision & Diffusion WebGPU",
+    "name": "Segment Anything (SAM) Web",
+    "url": "https://github.com/facebookresearch/segment-anything",
+    "repo_url": "https://github.com/facebookresearch/segment-anything",
+    "capability": "Meta's foundational image segmentation running zero-shot point-and-click masks in browser via WebGPU",
+    "runtime": "ONNX Runtime Web",
+    "check_url": "https://github.com/facebookresearch/segment-anything",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 538,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 538ms`"
+    }
+  },
+  {
+    "category": "Computer Vision & Diffusion WebGPU",
+    "name": "Florence-2 WebGPU",
+    "url": "https://huggingface.co/microsoft/Florence-2-base",
+    "repo_url": "https://github.com/microsoft/Florence-2-base",
+    "capability": "Microsoft's compact vision-language foundation model for image captioning, OCR, and object grounding",
+    "runtime": "Transformers.js / WebGPU",
+    "check_url": "https://huggingface.co",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 147,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 147ms`"
+    }
+  },
+  {
+    "category": "Computer Vision & Diffusion WebGPU",
+    "name": "Depth Anything WebGPU",
+    "url": "https://github.com/LiheYoung/Depth-Anything",
+    "repo_url": "https://github.com/LiheYoung/Depth-Anything",
+    "capability": "Highly robust monocular depth estimation running directly inside the client browser canvas",
+    "runtime": "ONNX Runtime Web",
+    "check_url": "https://github.com/LiheYoung/Depth-Anything",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 609,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 609ms`"
+    }
+  },
+  {
+    "category": "Computer Vision & Diffusion WebGPU",
+    "name": "Web-Stable-Diffusion",
+    "url": "https://github.com/mlc-ai/web-stable-diffusion",
+    "repo_url": "https://github.com/mlc-ai/web-stable-diffusion",
+    "capability": "Complete Stable Diffusion text-to-image latent pipeline generating images 100% on the client GPU",
+    "runtime": "WebGPU / WebAssembly",
+    "check_url": "https://github.com/mlc-ai/web-stable-diffusion",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 616,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 616ms`"
+    }
+  },
+  {
+    "category": "Client-Side Embeddings & Zero-Cloud RAG",
+    "name": "Voy (Wasm Vector DB)",
+    "url": "https://github.com/tantaraio/voy",
+    "repo_url": "https://github.com/tantaraio/voy",
+    "capability": "Wasm-native vector search engine powering fast nearest-neighbor semantic search entirely in the browser",
+    "runtime": "Wasm",
+    "check_url": "https://github.com/tantaraio/voy",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 562,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 562ms`"
+    }
+  },
+  {
+    "category": "Client-Side Embeddings & Zero-Cloud RAG",
+    "name": "all-MiniLM-L6-v2 WebGPU",
+    "url": "https://huggingface.co/Xenova/all-MiniLM-L6-v2",
+    "repo_url": "https://huggingface.co/Xenova/all-MiniLM-L6-v2",
+    "capability": "Compact dense sentence embeddings running locally in browser to index documents for private RAG",
+    "runtime": "Transformers.js / WebGPU",
+    "check_url": "https://huggingface.co",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 100,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 100ms`"
+    }
+  },
+  {
+    "category": "Client-Side Embeddings & Zero-Cloud RAG",
+    "name": "BGE-Micro-v2 Web",
+    "url": "https://huggingface.co/BAAI/bge-small-en-v1.5",
+    "repo_url": "https://huggingface.co/BAAI/bge-small-en-v1.5",
+    "capability": "State-of-the-art embedding model quantized for fast sub-50ms text vectorization on client devices",
+    "runtime": "WebGPU",
+    "check_url": "https://huggingface.co",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 98,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 98ms`"
+    }
+  },
+  {
+    "category": "Client-Side Embeddings & Zero-Cloud RAG",
+    "name": "MiniSearch",
+    "url": "https://github.com/lucaong/minisearch",
+    "repo_url": "https://github.com/lucaong/minisearch",
+    "capability": "Ultra-lightweight in-memory client-side full-text search engine with fuzzy search and prefix matching",
+    "runtime": "Pure JavaScript",
+    "check_url": "https://github.com/lucaong/minisearch",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 626,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 626ms`"
+    }
+  },
+  {
+    "category": "Edge Models & Developer Toolkits",
+    "name": "SmolLM2 (Hugging Face)",
+    "url": "https://huggingface.co/HuggingFaceTB/SmolLM2-135M",
+    "repo_url": "https://github.com/huggingface/smollm",
+    "capability": "Family of 135M, 360M, and 1.7B parameter models engineered specifically for edge and in-browser inference",
+    "runtime": "WebGPU / ONNX",
+    "check_url": "https://huggingface.co",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 168,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 168ms`"
+    }
+  },
+  {
+    "category": "Edge Models & Developer Toolkits",
+    "name": "Vercel AI SDK Client",
+    "url": "https://sdk.vercel.ai",
+    "repo_url": "https://github.com/vercel/ai",
+    "capability": "Unified frontend framework for streaming AI completions with seamless client-side runtime switching",
+    "runtime": "TypeScript",
+    "check_url": "https://sdk.vercel.ai",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 366,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 366ms`"
+    }
+  },
+  {
+    "category": "Edge Models & Developer Toolkits",
+    "name": "Chrome Built-in Prompt API (Gemini Nano)",
+    "url": "https://developer.chrome.com/docs/ai/built-in",
+    "repo_url": "https://github.com/webmachinelearning/prompt-api",
+    "capability": "Experimental native browser API providing zero-download local Gemini Nano model execution in Chrome",
+    "runtime": "Native Browser Engine",
+    "check_url": "https://developer.chrome.com",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 1225,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 1225ms`"
+    }
+  },
+  {
+    "category": "Edge Models & Developer Toolkits",
+    "name": "WebGPU Shaders & WGSL Matrix Kernels",
+    "url": "https://www.w3.org/TR/webgpu/",
+    "repo_url": "https://github.com/gpuweb/gpuweb",
+    "capability": "W3C official WebGPU standard specifications, compute shaders, and low-level hardware interface",
+    "runtime": "WGSL / WebGPU Standard",
+    "check_url": "https://www.w3.org",
+    "health": {
+      "status": "ONLINE",
+      "code": 200,
+      "latency_ms": 93,
+      "badge": "![Online](https://img.shields.io/badge/Status-Online-3fb950?style=flat-square) `\u26a1 93ms`"
+    }
+  }
+]
